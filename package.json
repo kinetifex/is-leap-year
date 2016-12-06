@@ -8,7 +8,6 @@
     "eslint": "godaddy-js-style-eslint --es5 *.js",
     "jscs": "godaddy-js-style-jscs --es5 *.js",
     "pretest": "npm run eslint && npm run jscs",
-    "build": "npm run prepublish && npm run pretest",
     "test": "mocha"
   },
   "repository": {
